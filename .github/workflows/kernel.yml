@@ -1,6 +1,5 @@
 # Kernel compile workflow for personal usage
-# By Sarthak Roy (sarthakroy2002@gmail.com)
-
+#thanks to sarthak roy
 name: Kernel CI
 
 on:
@@ -31,8 +30,8 @@ jobs:
     steps:
       - name: Initializing environment
         run: |
-          git config --global user.name "sarthakroy2002"
-          git config --global user.email "sarthakroy2002@gmail.com"
+          git config --global user.name "swastik369"
+          git config --global user.email "swastikpari123@gmail.com"
           df -h
           ld --version
           gcc -v
